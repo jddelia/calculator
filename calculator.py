@@ -65,8 +65,12 @@ class Calculator:
         self.total_label_text.set(self.total)
         self.entry.delete(0, END)
 
-root = Tk()
+def main():
+    root = Tk()
 
-app = Calculator(root)
+    app = Calculator(root)
 
-root.mainloop()
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
